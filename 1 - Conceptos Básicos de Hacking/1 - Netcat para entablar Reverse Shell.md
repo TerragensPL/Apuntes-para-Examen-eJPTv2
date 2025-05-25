@@ -5,7 +5,7 @@
 
   
 
-![[https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/raw/main/Imagenes/image.png]]
+![[../raw/main/Imagenes/image.png]]
 
  
   
@@ -34,7 +34,7 @@ Si conseguimos acceso a muestra maquina victima debemos inyectar el comando que 
 
   
 
-![https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/raw/main/Imagenes/image 1.png]]
+![./raw/main/Imagenes/image 1.png]]
 
   
 
@@ -42,6 +42,6 @@ Nuestra maquina atacante Kali reacciona a la señal de la maquina victima, origi
 
   
 
-![[/imagenes/image 2.png]]
+![[../raw/main/Imagenes/image 2.png]]
 
-![[imagenes/image 3.png]]
+![[/raw/main/Imagenes/image 3.png]]
