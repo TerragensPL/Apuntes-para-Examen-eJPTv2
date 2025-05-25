@@ -5,9 +5,9 @@
 
   
 
-![[../Imagenes/image.png]]
+![[/../Imagenes/image.png]]
 
- ![[./Imagenes/image.png]]
+ ![[./../Imagenes/image.png]]
   
   
 
