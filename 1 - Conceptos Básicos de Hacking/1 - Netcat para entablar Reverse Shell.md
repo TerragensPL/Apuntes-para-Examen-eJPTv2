@@ -14,14 +14,14 @@ Ponemos el siguiente comando en nuestra maquina atacante **nc -nlvp 443** . Con 
 
   
   
-`**nc -nlvp 443**`  
+`nc -nlvp 443`  
   
 
-> [!important] `**nc**`: Invoca **la herramienta** Netcat.<br><br><br>`**-n**`: **Desactiva la resolución de nombres DNS**. Esto significa que solo se usarán direcciones IP sin intentar resolver nombres de dominio.<br><br><br>`-``**l**`: **Activa el modo de escucha** (listen), lo que **convierte Netcat en un servidor que espera conexiones entrantes**.<br><br><br>`-``**v**`: Habilita el modo "verboso" (verbose), proporcionando **información** detallada **sobre las conexiones**.<br><br><br>`-``**p 443**`: Especifica el **puerto** en el **que** Netcat **estará escuchando**, en este caso, el puerto 443 (comúnmente utilizado por HTTPS).<br><br>
+> [!important] `nc`: Invoca **la herramienta** Netcat.<br><br><br>`-n`: **Desactiva la resolución de nombres DNS**. Esto significa que solo se usarán direcciones IP sin intentar resolver nombres de dominio.<br><br><br>`-``l`: **Activa el modo de escucha** (listen), lo que **convierte Netcat en un servidor que espera conexiones entrantes**.<br><br><br>`-v`: Habilita el modo "verboso" (verbose), proporcionando **información** detallada **sobre las conexiones**.<br><br><br>`-``p 443`: Especifica el **puerto** en el **que** Netcat **estará escuchando**, en este caso, el puerto 443 (comúnmente utilizado por HTTPS).<br><br>
 
   
 
-![[./imagenes/./imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png]]
+![[./imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png]]
 
   
 
