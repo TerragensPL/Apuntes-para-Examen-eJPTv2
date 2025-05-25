@@ -8,7 +8,7 @@ Vamos a detectar vulnerabilidades existentes con Nmap o al menos las mas conocid
      sudo arp-scan -I eth0 --localnet 
     ```
     
-    ![image.png](image%2023.png)
+    ![image.png](./imagenes/image%2023.png)
     
 
 - Hacemos un Ping hacia nuestro objetivo para intuir que sistema operativo corre en el .
@@ -17,7 +17,7 @@ Vamos a detectar vulnerabilidades existentes con Nmap o al menos las mas conocid
     ping -c 1 192.168.1.38
     ```
     
-    ![image.png](image%2024.png)
+    ![image.png](./imagenes/image%2024.png)
     
 
 - Vamos a hacer que nmap nos muestre los puertos abiertos y los que este corriendo tras ellos.
@@ -26,7 +26,7 @@ Vamos a detectar vulnerabilidades existentes con Nmap o al menos las mas conocid
 nmap -p- --open -sS -sV --min-rate 1500 -n -vvv -Pn 192.168.1.41 -oN escaneo.txt
 ```
 
-![image.png](image%2021.png)
+![image.png](./imagenes/image%2021.png)
 
 Como vemos el puerto 445 nos muestra mucha información y suele ser el del protocolo SMB. Que el Windows 7 era muy propenso a ataque sobre todo si tiene la versión 1 de SMB.
 
@@ -50,13 +50,13 @@ Como vemos el puerto 445 nos muestra mucha información y suele ser el del proto
     
     </aside>
     
-    ![image.png](image%2025.png)
+    ![image.png](./imagenes/image%2025.png)
     
 
 No encuentra una vulnerabilidad en el puerto y **nos muestra el CVE** de la vulnerabilidad. Aqui entraría en juego la fase de explotación, buscando sploit o herramientas en internet para atacarla manual mente o mediante herramientas automatizadas como  **Metasploit** .
 
-En la siguiente web podemos buscar información sobre el CVE: [**NVD - Home**](https://nvd.nist.gov/)
+En la siguiente web podemos buscar información sobre el CVE: [**NVD - Home**](./imagenes/https://nvd.nist.gov/)
 
-![image.png](image%2026.png)
+![image.png](./imagenes/image%2026.png)
 
 Esta en concreto es una de las vulnerabilidades relacionadas con el exploit **EternalBlue**, que fue utilizado en ataques masivos como WannaCry.

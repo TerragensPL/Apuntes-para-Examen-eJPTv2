@@ -1,6 +1,6 @@
 # Escaneos Básicos con Nmap
 
-![image.png](image%2016.png)
+![image.png](./imagenes/image%2016.png)
 
 **Escaneos de puertos**
 
@@ -10,7 +10,7 @@ Partiendo de un reconocimiento de equipos que componen una red por ejemplo con a
 sudo arp-scan -I eth0 --localnet 
 ```
 
-![image.png](image%2017.png)
+![image.png](./imagenes/image%2017.png)
 
 Hacemos un Ping al equipo victima con una sola traza para intentar averiguar que clase de equipo es.
 
@@ -18,7 +18,7 @@ Hacemos un Ping al equipo victima con una sola traza para intentar averiguar que
 ping -c 1 192.168.1.41 
 ```
 
-![image.png](image%2018.png)
+![image.png](./imagenes/image%2018.png)
 
 Como vemos nos devuelve un **ttl de 128**. Esto nos da un gran porcentaje de seguridad que es una maquina **Windows.**
 
@@ -30,7 +30,7 @@ Queremos ver información mas concreta sobre la maquina , que puertos tiene abie
     nmap 192.168.1.41   
     ```
     
-    ![image.png](image%2019.png)
+    ![image.png](./imagenes/image%2019.png)
     
     Como se ve no muestra mucha información excepto los puertos abiertos.
     
@@ -41,7 +41,7 @@ Queremos ver información mas concreta sobre la maquina , que puertos tiene abie
     
     ```
     
-    ![image.png](image%2020.png)
+    ![image.png](./imagenes/image%2020.png)
     
     ### Explicación de los parámetros:
     
@@ -70,4 +70,4 @@ Queremos ver información mas concreta sobre la maquina , que puertos tiene abie
     
     </aside>
     
-    ![image.png](image%2021.png)
+    ![image.png](./imagenes/image%2021.png)

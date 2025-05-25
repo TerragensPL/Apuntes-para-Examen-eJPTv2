@@ -6,7 +6,7 @@ Hasta ahora hemos visto escaneo de puerto bajo el protocolo TCP que seria lo mas
 nmap -sU --top-ports 200 --min-rate=2000 -Pn 198.168.1.38 
 ```
 
-![image.png](image%2022.png)
+![image.png](./imagenes/image%2022.png)
 
 <aside>
 

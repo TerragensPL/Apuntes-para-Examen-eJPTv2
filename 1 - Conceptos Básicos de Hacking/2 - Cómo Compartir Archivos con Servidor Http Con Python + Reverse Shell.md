@@ -7,7 +7,7 @@
     ```
     
 
-![image.png](image%204.png)
+![image.png](./imagenes/image%204.png)
 
 - Escribimos el siguiente código que lo que hace básicamente de envió de una Reverse Shell. Guardamos y salimos de nano.
 La IP pertenece a la maquina atacante.
@@ -19,7 +19,7 @@ La IP pertenece a la maquina atacante.
     ```
     
 
-![image.png](image%205.png)
+![image.png](./imagenes/image%205.png)
 
 - Vamos a crear un servidor web con Python.
 
@@ -34,9 +34,9 @@ python3 -m http.server 80
 
 **80**: Especifica que el servidor **usará el puerto 80**, el puerto predeterminado para el protocolo HTTP.
 
-![image.png](image%206.png)
+![image.png](./imagenes/image%206.png)
 
 - Esto lo que hace es levantar un servidor web en el puerto 80 dentro del actual directorio dentro de la maquina kali.
 - Si vamos a la maquina victima y ponemos la IP de la maquina Kali en el navegador accederíamos al directorio donde he creado el servidor web. De tal forma que si le doy un clip al archivo payload.sh lo descargaría.
 
-![image.png](faad3445-f7c7-44b5-a98e-4a045fc997ea.png)
+![image.png](./imagenes/faad3445-f7c7-44b5-a98e-4a045fc997ea.png)

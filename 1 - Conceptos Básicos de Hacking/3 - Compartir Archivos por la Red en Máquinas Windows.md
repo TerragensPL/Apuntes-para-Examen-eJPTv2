@@ -6,12 +6,12 @@
     python3 -m http.server 80
     ```
     
-    ![image.png](image%207.png)
+    ![image.png](./imagenes/image%207.png)
     
 
 - En la maquina Windows abrimos un terminar CMD y escribimos el siguiente comando:
     
-    certutil -split -urlcache -f [http://192.168.1.37/imagen.png](http://192.168.1.37/imagen.png) imagen.png
+    certutil -split -urlcache -f [http://192.168.1.37/imagen.png](./imagenes/http://192.168.1.37/imagen.png) imagen.png
     
     Se utiliza para descargar un archivo desde una URL específica y almacenarlo en la caché local de Windows. 
     
@@ -27,4 +27,4 @@
     
     **imagen.png**: Es el n**ombre del archivo bajo el cual se guardará en tu sistema**. Si no lo incluyes, el archivo mantendrá el nombre original del recurso remoto.
     
-    ![image.png](image%208.png)
+    ![image.png](./imagenes/image%208.png)

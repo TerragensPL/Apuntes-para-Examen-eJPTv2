@@ -4,7 +4,7 @@ Vamos a ver como poder encontrar equipos que estén dentro de mi red privada.
 
 Para utilizar estas herramientas tendremos que tener en cuenta algunos datos que obtendremos utilizando el comando **ifconfig** en nuestra consola de Kali.
 
-![image.png](image%209.png)
+![image.png](./imagenes/image%209.png)
 
 - **eth0** : Sera **nuestra interfaz** de red en la que nos encontramos.
 - **192.168.1.37** : Es **nuestra dirección IP** que además nos señala nuestro segmento de red **192.169.1.0/24**
@@ -30,7 +30,7 @@ Para utilizar estas herramientas tendremos que tener en cuenta algunos datos que
     
     **--localnet**: Indica que se **debe escanear la red local completa**, basándose en la dirección y máscara de subred configuradas en la interfaz seleccionada.
     
-    ![image.png](image%2010.png)
+    ![image.png](./imagenes/image%2010.png)
     
 
 **NOTA:** Como truco que una **MAC** comience como **08:00:** identifica a una maquina virtual.
@@ -51,7 +51,7 @@ ping -c 1 192.168.1.38
 
 **192.168.1.38**: Es la **dirección IP** del destino al que se envía el paquete.
 
-![image.png](image%2011.png)
+![image.png](./imagenes/image%2011.png)
 
 - Como vemos el **ttl** devuelto es **128**. Este valor suele ser respondido por máquinas **Windows**.
     
@@ -72,10 +72,10 @@ Por tanto permite estimar el tipo de dispositivo que originó el paquete y cuán
     sudo netdiscover -i eth0 -r 192.168.1.0/24 
     ```
     
-    ![image.png](image%2012.png)
+    ![image.png](./imagenes/image%2012.png)
     
 
-![image.png](image%2013.png)
+![image.png](./imagenes/image%2013.png)
 
 **Propósito**
 
@@ -94,13 +94,13 @@ Netdiscover escanea la red en el rango especificado y muestra una lista de dispo
     
     nmap -sn 192.168.1.0/24  
     
-    ![image.png](image%2014.png)
+    ![image.png](./imagenes/image%2014.png)
     
     Si queremos guardar el resultado del escaneo de red en un archivo lo escribiríamos así:
     
     nmap -sn 192.168.1.0/24 -oN ip_disponibles.txt
     
-    ![image.png](image%2015.png)
+    ![image.png](./imagenes/image%2015.png)
     
     **Explicación de los parámetros**
     
