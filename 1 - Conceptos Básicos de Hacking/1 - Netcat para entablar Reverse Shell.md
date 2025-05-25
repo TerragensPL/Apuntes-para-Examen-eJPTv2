@@ -5,7 +5,7 @@
 
   
 
-![[./Apuntes-para-Examen-eJPTv2/tree/main/Imagenes/image.png]]
+![[Imagenes/image.png]]
 
   
 
