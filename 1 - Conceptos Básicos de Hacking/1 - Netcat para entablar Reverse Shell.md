@@ -5,8 +5,10 @@
 
   
 
-![[../Imagenes/image.png]]
+![[https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/raw/main/Imagenes/image.png]]
 
+ 
+  
   
 
   
@@ -21,7 +23,7 @@ Ponemos el siguiente comando en nuestra maquina atacante **nc -nlvp 443** . Con 
 
   
 
-![[../Imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png]]
+![[https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/raw/main/Imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png]]
 
   
 
@@ -32,7 +34,7 @@ Si conseguimos acceso a muestra maquina victima debemos inyectar el comando que 
 
   
 
-![[./imagenes/image 1.png]]
+![https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/raw/main/Imagenes/image 1.png]]
 
   
 
