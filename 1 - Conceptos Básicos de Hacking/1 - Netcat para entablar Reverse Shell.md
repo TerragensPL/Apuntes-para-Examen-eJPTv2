@@ -5,7 +5,7 @@
 
   
 
-![[Imagenes/image.png]]
+![[../Imagenes/image.png]]
 
   
 
@@ -21,7 +21,7 @@ Ponemos el siguiente comando en nuestra maquina atacante **nc -nlvp 443** . Con 
 
   
 
-![[/Apuntes-para-Examen-eJPTv2/tree/main/Imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png]]
+![[../Imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png]]
 
   
 
