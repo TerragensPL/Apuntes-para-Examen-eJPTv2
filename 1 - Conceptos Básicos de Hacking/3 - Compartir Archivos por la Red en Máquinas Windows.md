@@ -11,7 +11,7 @@
 
 - En la maquina Windows abrimos un terminar CMD y escribimos el siguiente comando:
     
-    certutil -split -urlcache -f [http://192.168.1.37/imagen.png](./imagenes/http://192.168.1.37/imagen.png) imagen.png
+    certutil -split -urlcache -f [http://192.168.1.37/imagen.png](http://192.168.1.37/imagen.png) imagen.png
     
     Se utiliza para descargar un archivo desde una URL específica y almacenarlo en la caché local de Windows. 
     
