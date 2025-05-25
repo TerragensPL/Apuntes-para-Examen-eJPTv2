@@ -5,7 +5,7 @@
 
   
 
-![[./imagenes/image.png]]
+![[../imagenes/image.png]]
 
   
 
@@ -21,7 +21,7 @@ Ponemos el siguiente comando en nuestra maquina atacante **nc -nlvp 443** . Con 
 
   
 
-![[./imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png]]
+![[../imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png]]
 
   
 
@@ -32,7 +32,7 @@ Si conseguimos acceso a muestra maquina victima debemos inyectar el comando que 
 
   
 
-![[./imagenes/image 1.png]]
+![[../imagenes/image 1.png]]
 
   
 
@@ -40,6 +40,6 @@ Nuestra maquina atacante Kali reacciona a la señal de la maquina victima, origi
 
   
 
-![[./imagenes/image 2.png]]
+![[../imagenes/image 2.png]]
 
-![[./imagenes/image 3.png]]
+![[../imagenes/image 3.png]]
