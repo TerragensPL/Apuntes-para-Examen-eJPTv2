@@ -42,4 +42,4 @@ Nuestra maquina atacante Kali reacciona a la señal de la maquina victima, origi
 
 ![image.png](./imagenes/image%202.png)
 
-![image.png](./Imagenes/image%203.png)
+![image.png](./imagenes/image%203.png)
