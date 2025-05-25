@@ -2,7 +2,7 @@
 
 Maquinas que vamos a usar Kali Linux y Unrecover.
 
-Enlace para descargar Unrecover: [DockerLabs](./imagenes/https://dockerlabs.es/)
+Enlace para descargar Unrecover: [DockerLabs](https://dockerlabs.es/)
 
 **NOTA: La maquina Unrecover es un docker y tenemos que desplegarlo antes de poder usarla.** 
 
