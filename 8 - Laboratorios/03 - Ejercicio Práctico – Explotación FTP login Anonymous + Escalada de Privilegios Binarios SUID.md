@@ -15,7 +15,7 @@ Mi IP: 10.21.166.149
 ```bash
 ping -c 1 10.10.47.179 
 ```
-
+ 
 ![image.png](./imagenes/image%2049.png)
 
 ```bash

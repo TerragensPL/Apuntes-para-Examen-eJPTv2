@@ -11,7 +11,7 @@ sudo arp-scan -I eth0 --localnet
 ```bash
 ping -c 1 10.0.3.22 
 ```
-
+ 
 ![image.png](./imagenes/image%2035.png)
 
 Es una maquina Linux.

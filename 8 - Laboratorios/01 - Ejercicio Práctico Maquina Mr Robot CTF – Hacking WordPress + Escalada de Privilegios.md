@@ -11,7 +11,7 @@ ping -c 1 10.10.192.154
 ```bash
 nmap -p- -sS -sV -sC --open -min-rate=5000 -n -vvv -Pn 10.10.192.154
 ```
-
+ 
 ![image.png](./imagenes/image%201.png)
 
 - Miramos el puerto 80 con nuestro navegador web
