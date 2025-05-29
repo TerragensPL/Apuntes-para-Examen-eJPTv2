@@ -20,7 +20,7 @@ El autor **NO** se hace responsable del uso indebido de la información aquí co
 
 ---
 
-Para estos apuntes vamos a utilizar Virtual Box  https://www.virtualbox.org/ para virtualizar mi maquina atacante Kali Linux  https://www.kali.org/get-kali/#kali-platforms y las maquinas vulnerables. y así crear laboratorios seguros para practicar nuestras habilidades.
+Para estos apuntes vamos a utilizar Virtual Box  https://www.virtualbox.org/ para virtualizar mi maquina atacante Kali Linux  https://www.kali.org/get-kali/#kali-platforms y las maquinas vulnerables. Así crear laboratorios seguros para practicar nuestras habilidades.
 
 Laboratorios que vamos a utilizar:
 
