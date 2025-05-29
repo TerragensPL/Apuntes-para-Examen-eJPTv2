@@ -17,3 +17,15 @@ El autor **NO** se hace responsable del uso indebido de la información aquí co
 ---
 
 📢 **¡Aprende, experimenta y crece en el mundo de la ciberseguridad de manera ética!** 🔍🔐  
+
+---
+
+Para estos apuntes vamos a utilizar Virtual Box  https://www.virtualbox.org/ para virtualizar mi maquina atacante Kali Linux  https://www.kali.org/get-kali/#kali-platforms y las maquinas vulnerables. y así crear laboratorios seguros para practicar nuestras habilidades.
+
+Laboratorios que vamos a utilizar:
+
+- https://hackmyvm.eu/machines/
+- https://thehackerslabs.com/
+- https://dockerlabs.es/
+- https://www.hackthebox.com/
+- https://tryhackme.com/
