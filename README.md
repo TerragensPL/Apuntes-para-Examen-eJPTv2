@@ -1,5 +1,8 @@
 **Mis Apuntes para Examen eJPTv2**
 
+![image.png](Certificado_eJPTv2.png)
+
+
 ⚠️ **DISCLAIMER** ⚠️
 
 📌 **Propósito Educativo:**  
